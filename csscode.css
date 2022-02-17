@@ -1,0 +1,300 @@
+body {
+  background-image: linear-gradient(to right, PowderBlue, BlanchedAlmond);
+  margin: 0px;
+  padding: 0px;
+  font-family: "myriad pro regular", sans-serif;
+}
+#topBtn{
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: Aquamarine;
+  padding: 20px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+td {
+  vertical-align: bottom;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+h3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  padding: 3% 15%;
+}
+
+tr {
+  text-align: center;
+}
+
+table {
+  margin: 10px auto;
+}
+
+section {
+  width: 100%;
+  height: 20vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  margin: 30px;
+  font-family: calibri;
+  color: #505050;
+  font-size: 15px;
+  font-weight: 10;
+}
+
+.nav-item {
+  padding: 0 15px;
+  font-size: 2.4rem;
+}
+
+.about-container {
+  width: 80%;
+  height: 450px;
+  display: flex;
+  margin: 40% auto 10px auto;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about-text {
+  width: 500px;
+}
+
+.active {
+  color: #2d2a2a;
+  font-weight: bold;
+}
+
+.olll {
+  text-align: center;
+  margin-left: 0;
+}
+
+.tocenter {
+  text-align: center;
+  list-style-position: inside;
+  image-align: center;
+  bottom: 40px;
+}
+
+.makeAblck {
+  display: run-in;
+  border: 2px;
+  background-image: linear-gradient(to right, PowderBlue, BlanchedAlmond);
+}
+
+.toFloat {
+  float: left;
+  position: static;
+  clear: none;
+}
+
+.floatR {
+  float: right;
+  position: static;
+  clear: none;
+}
+
+.model {
+  height: 530px;
+  position: absolute;
+  bottom: 40px;
+  left: 75%;
+  transform: translateX(-75%);
+}
+
+.text-container {
+  padding-bottom: 5rem;
+}
+
+.text-container p:nth-child(1) {
+  font-family: calibri;
+  font-weight: bold;
+  color: #6d6d6d;
+  font-size: 22px;
+}
+
+.text-container p:nth-child(2) {
+  font-family: calibri;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #1a1a1a;
+  font-size: 60px;
+}
+
+.text-container p:nth-child(3) {
+  font-family: myriad pro regular;
+  color: #403e3e;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+a:visited {
+  text-decoration: none;
+  color: Teal;
+}
+
+.text-container p {
+  margin: 45px 0px 25px;
+  line-height: 0px;
+}
+
+.text-container button {
+  width: 130px;
+  height: 42px;
+  border-radius: 10px;
+  font-family: calibri;
+  font-weight: bold;
+  font-size: 14px;
+  outline: none;
+  margin: 0px 10px;
+}
+
+.tabler {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.insta {
+  font-size: 44px !important;
+  color: black;
+}
+
+.navbar {
+  padding: 0 15px;
+}
+
+#wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+varError {
+  color: red;
+}
+#header {
+  width: 100%;
+}
+
+#content {
+  width: 100%;
+}
+
+#sidebar {
+  width: 100%;
+}
+
+#footer {
+  width: 100%;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+    #wrapper {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    #content {
+      width: 70%;
+      float: left;
+    }
+
+    #sidebar {
+      width: 30%;
+      float: right;
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) {
+      ...
+    }
+  }
+
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    #wrapper {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+
+  .navbar-expand {
+    -sm|-md|-lg|-xl
+  }
+
+  #testimonials {
+    text-align: center;
+    color: #fff;
+  }
+
+  .testimonial-img {
+    padding-top: 40px;
+    width: 15%;
+    border-radius: 100%;
+    margin: 40px 40px 40px 40px;
+  }
+
+  .carousel-item {
+    padding: 7% 15%;
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .fas fa-user-graduate fa-7x {
+    padding-left: 40px;
+  }
+
+  .boldd {
+    font-weight: bold;
+  }
